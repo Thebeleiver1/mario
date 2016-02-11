@@ -32,10 +32,10 @@
 		
 	</style>
 	<?php
-
+// line star her for c add library on top
     $i;
     
-    $n = 13;
+    $n = 13; // i have fixed to 13 line you can ask user inpu ..
 
     //echo $n;
     
@@ -55,18 +55,17 @@
         for ($x = $i-1; $x >= 0; $x = $x-1)
         {
             
-            echo '<div class="space"></div>';
+            echo '<div class="space"></div>';/// this one is blank space
             
         }    
-            //echo '<div class="block"></div>';  // Add # in the beginining to make it 2 #
+            //echo '<div class="block"></div>';  // Add # in the beginining to make it 2 # // this one will make double #
         //---------------------------------------------------------------------
            for ($y = $i; $y < $n; $y++) 
             {
                 
-            echo '<div class="block"></div>';
-            
+            echo '<div class="block"></div>'; // this one will print #
              }
-                echo "</br>";
+                echo "</br>"; /// new line /n
     }
    
 echo "</center>";
